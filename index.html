@@ -4,39 +4,28 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Poesia pela Vida</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="galeria.css" />
 </head>
 <body>
-
   <header class="topo">
     <h1>Poesia pela Vida</h1>
     <nav class="menu">
-      <a href="#">Início</a>
-      <a href="#poemas">Poemas</a>
-      <a href="#depoimentos">Depoimentos</a>
-      <a href="#ajuda">Ajuda</a>
+      <a href="index.html">Início</a>
+      <a href="historia.html">Histórias de Superação</a>
+      <a href="galeria.html">Galeria de Fotos</a>
     </nav>
   </header>
 
   <main>
-
-    <!-- SEÇÃO: BOAS-VINDAS -->
     <section class="intro">
-      <img src="img/poesia.jpg" alt="Imagem simbólica de esperança" />
-      <div>
-        <h2>Você não está sozinho(a)</h2>
-        <p>Este site foi feito com carinho para trazer acolhimento através da poesia. A vida, mesmo com desafios, pode ser bela — e a arte nos ajuda a lembrar disso.</p>
-        <audio controls>
-          <source src="audio/poema.mp3" type="audio/mpeg">
-          Seu navegador não suporta áudio.
-        </audio>
-      </div>
+      <h2>Você não está sozinho(a)</h2>
+      <p>Este site é uma homenagem à vida e uma oportunidade de compartilhar poesia, imagens e histórias que trazem esperança.</p>
+      <button class="galeria-btn" onclick="abrirGaleria()">Abrir Galeria</button>
     </section>
 
-    <!-- SEÇÃO: POEMAS -->
-    <section class="poemas" id="poemas">
-      <h2>Poemas para Fortalecer</h2>
-
+    <section class="poemas">
+      <h2>Poemas para fortalecer</h2>
       <article class="poema">
         <h3>Fragmentos de Esperança</h3>
         <p>
@@ -46,43 +35,19 @@
           É vírgula na história que ainda se faz.
         </p>
       </article>
-
-      <article class="poema">
-        <h3>O Amanhã Existe</h3>
-        <p>
-          Mesmo quando o mundo parece calar,<br />
-          Sua existência tem razão pra brilhar.<br />
-          Segure firme, respire, confie:<br />
-          Você é importante, você vive, você é poesia.
-        </p>
-      </article>
     </section>
-
-    <!-- SEÇÃO: DEPOIMENTOS -->
-    <section class="depoimentos" id="depoimentos">
-      <h2>Depoimentos que Inspiram</h2>
-      <blockquote>
-        “Achei que não conseguiria passar daquela semana… Mas pedi ajuda, e foi a melhor decisão da minha vida.” – Anônimo
-      </blockquote>
-      <blockquote>
-        “A poesia foi minha forma de falar o que eu não conseguia dizer.” – Estudante do 9º ano
-      </blockquote>
-    </section>
-
-    <!-- SEÇÃO: AJUDA -->
-    <section class="ajuda" id="ajuda">
-      <h2>Procure Ajuda</h2>
-      <p>Se você está se sentindo sobrecarregado, fale com alguém de confiança. Você também pode ligar gratuitamente para o CVV – 188. Há escuta, há apoio, há vida.</p>
-      <a class="botao-ajuda" href="https://www.cvv.org.br/" target="_blank" rel="noopener">Acesse o site do CVV</a>
-    </section>
-
   </main>
 
   <footer>
-    <p>Trabalho escolar – Poesia pela Vida 💛</p>
-    <p>Feito com empatia e esperança | CVV: 188</p>
+    <p>&copy; 2025 — Poesia pela Vida | CVV: 188</p>
   </footer>
 
+  <script>
+    function abrirGaleria() {
+      window.location.href = 'galeria.html'; // Direciona para a galeria
+    }
+  </script>
 </body>
 </html>
+
 
