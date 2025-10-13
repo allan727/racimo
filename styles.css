@@ -1,100 +1,23 @@
-/* Reset e configurações iniciais */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #f0f8ff;
-  color: #333;
+  background-color: #e0e0e0; /* Cor de fundo um pouco mais escura */
+  color: #333; /* Texto escuro para contraste */
 }
 
-/* Cabeçalho */
 header.topo {
-  background-color: #4caf50;
+  background-color: #4caf50; /* Verde vibrante */
   color: white;
   text-align: center;
   padding: 1.5rem;
 }
 
-header .menu {
-  margin-top: 1rem;
-}
-
-header .menu a {
-  margin: 0 10px;
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-}
-
-header .menu a:hover {
-  text-decoration: underline;
-}
-
-/* Estilo para o botão de galeria */
-.galeria-btn {
-  background-color: #ff5722;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-}
-
-.galeria-btn:hover {
-  background-color: #e64a19;
-}
-
-/* Galeria de imagens */
-.galeria {
-  display: none;
-  padding: 20px;
-  background-color: #fff;
-  margin-top: 20px;
-}
-
-.galeria.mostrar {
-  display: block;
-}
-
-.galeria .imagens {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-
-.galeria img {
-  width: 100%;
-  max-width: 250px;
-  border-radius: 8px;
-}
-
-/* Estilo para os Poemas */
-.poemas .poema {
-  background-color: #ffffff;
-  margin: 1.5rem 0;
-  padding: 1.5rem;
-  border-left: 5px solid #ff5722;
-  border-radius: 8px;
-}
-
-/* Histórias de superação */
-.historia {
-  background-color: #fff;
-  margin: 1.5rem 0;
-  padding: 1.5rem;
-  border-left: 5px solid #4caf50;
-  border-radius: 8px;
-}
-
-/* Rodapé */
 footer {
-  background-color: #4caf50;
+  background-color: #388e3c; /* Verde mais escuro */
   color: white;
   text-align: center;
   padding: 1rem;
-  margin-top: 20px;
 }
+
+
+
 
