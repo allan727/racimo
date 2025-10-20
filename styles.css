@@ -1,22 +1,93 @@
-body {
-  font-family: 'Arial', sans-serif;
-  background-color: #e0e0e0; /* Cor de fundo um pouco mais escura */
-  color: #333; /* Texto escuro para contraste */
+/* Definir uma paleta de cores mais vibrante */
+:root {
+  --cor-principal: #4caf50;  /* Verde vibrante */
+  --cor-secundaria: #388e3c; /* Verde mais escuro */
+  --cor-acento: #ff9800; /* Laranja vibrante */
+  --cor-fundo: #f4f4f4; /* Cor de fundo mais clara */
+  --cor-texto: #333; /* Texto escuro para contraste */
+  --cor-secundario-texto: #555; /* Texto secundário */
 }
 
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Header */
 header.topo {
-  background-color: #4caf50; /* Verde vibrante */
+  background: linear-gradient(135deg, var(--cor-principal), var(--cor-acento)); /* Gradiente no topo */
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+}
+
+header.topo h1 {
+  margin: 0;
+  font-size: 3rem; /* Tamanho maior para dar destaque */
+  text-transform: uppercase; /* Deixar o título em maiúsculas */
+}
+
+/* Adicionar interatividade */
+header.topo:hover {
+  transform: scale(1.05); /* Efeito de aumento suave */
+  transition: transform 0.3s ease;
+}
+
+/* Footer */
+footer {
+  background-color: var(--cor-secundaria);
   color: white;
   text-align: center;
   padding: 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
 
-footer {
-  background-color: #388e3c; /* Verde mais escuro */
+footer a {
   color: white;
-  text-align: center;
-  padding: 1rem;
+  text-decoration: none;
+  margin: 0 10px;
 }
+
+footer a:hover {
+  text-decoration: underline;
+  color: var(--cor-acento); /* Mudança de cor no hover */
+}
+
+/* Links principais */
+a {
+  color: var(--cor-principal);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--cor-acento);
+  text-decoration: underline;
+}
+
+/* Estilos de botão */
+button {
+  background-color: var(--cor-principal);
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: var(--cor-acento);
+
 
 
 
