@@ -1,76 +1,89 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Histórias de Superação</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Histórias de Superação — Poesia pela Vida</title>
   <link rel="stylesheet" href="styles.css" />
+  <script>
+    function abrirGaleria() {
+      window.location.href = 'galeria.html'; // Corrigido para navegação simples
+    }
+  </script>
 </head>
 <body>
-  <header class="topo">
-    <h1>Poesia pela Vida - Histórias de Superação</h1>
-    <nav class="menu">
-      <a href="index.html">Voltar ao Início</a>
-      <a href="#" onclick="abrirGaleria()">Galeria de Fotos</a>
+
+  <header class="topo" role="banner">
+    <h1>Poesia pela Vida — Histórias de Superação</h1>
+    <nav class="menu" role="navigation" aria-label="Menu principal">
+      <ul>
+        <li><a href="index.html">Voltar ao Início</a></li>
+        <li><button type="button" onclick="abrirGaleria()" aria-label="Abrir galeria de fotos">Galeria de Fotos</button></li>
+      </ul>
     </nav>
   </header>
 
-  <main>
-    <section class="historia">
-      <h2>História 1: A Superação de João</h2>
+  <main role="main">
+    <article class="historia" aria-labelledby="historia1-titulo">
+      <h2 id="historia1-titulo">História 1: A Superação de João</h2>
+      <p><strong>🌅 Renascimento de João</strong></p>
       <p>
-        🌅 Renascimento de João
-
-      João sentia que não havia saída. As sombras da depressão o cercavam e ele acreditava que a única solução seria se afastar da vida. Cada amanhecer parecia um fardo, e o espelho refletia não apenas seu rosto, mas também o cansaço de quem lutava em silêncio.
-      Os dias eram longos, as noites ainda mais — e a solidão, sua única companhia.
-
-      Mas, mesmo em meio à escuridão, algo dentro dele ainda lutava. Uma pequena voz, quase apagada, insistia em dizer que ainda havia esperança. Em um momento de coragem, João decidiu pedir ajuda. Foi difícil — admitir a dor, abrir o coração e confiar novamente —, mas esse passo seria o início de uma nova jornada.
-
-      Com o apoio de amigos, familiares e profissionais, João começou lentamente a reconstruir o que a tristeza havia destruído. Aprendeu a respirar fundo, a reconhecer seus limites e, principalmente, a se perdoar.
-      Os dias continuaram difíceis, mas agora havia propósito. Cada pequena vitória — levantar da cama, sair para caminhar, sorrir sem motivo — era celebrada como uma conquista imensa.
-
-      A terapia o ensinou que sentir não é fraqueza, e que chorar é parte do processo de cura. Descobriu que pedir ajuda é, na verdade, um dos atos mais fortes que alguém pode ter.
-      E com o tempo, aquele vazio dentro dele começou a se encher novamente — não de euforia, mas de vida verdadeira.
-
-      Hoje, João olha para trás e entende: ele não venceu a depressão sozinho, mas escolheu lutar. E essa escolha fez toda a diferença.
-      Agora, ele é a prova viva de que, mesmo quando tudo parece perdido, sempre existe um novo começo — basta dar o primeiro passo e acreditar que a luz pode voltar a brilhar. 🌻
+        João sentia que não havia saída. As sombras da depressão o cercavam e ele acreditava que a única solução seria se afastar da vida. Cada amanhecer parecia um fardo, e o espelho refletia não apenas seu rosto, mas também o cansaço de quem lutava em silêncio. Os dias eram longos, as noites ainda mais — e a solidão, sua única companhia.
       </p>
-    </section>
-
-    <section class="historia">
-      <h2>História 2: O Caminho de Maria</h2>
       <p>
-      🌟 A Jornada de Maria: Renascendo das Cinzas
-
-      Maria passou por momentos tão difíceis que, em vários momentos, ela acreditou que não havia mais razão para continuar. As sombras da tristeza e do desespero a envolviam a cada dia, tornando o mundo ao seu redor um lugar sombrio e sem cor. Ela se sentia isolada, sem direção, como se o peso de suas emoções fosse um fardo insuportável que ninguém poderia entender.
-
-      Durante meses, ela acreditou que estava sozinha, que ninguém seria capaz de vê-la por dentro, onde a dor parecia infinita. As noites eram longas e solitárias, e as manhãs, quando chegavam, apenas traziam mais cansaço. Ela estava perdida, sem esperança e sem forças para continuar.
-
-      Mas então, um dia, algo mudou. Maria tomou uma decisão que, à primeira vista, parecia pequena, mas que transformaria sua vida: ela decidiu pedir ajuda.
-
-      Ela encontrou coragem para buscar apoio no CVV (Centro de Valorização da Vida) e começou a participar de grupos de suporte, onde compartilhou suas angústias com pessoas que realmente a ouviam. Pela primeira vez em muito tempo, ela sentiu que alguém entendia a profundidade de sua dor, e isso foi a centelha que reacendeu sua vontade de lutar.
-
-      O processo não foi fácil. Havia dias em que ela ainda sentia o peso da tristeza, mas com o tempo, Maria aprendeu a acessar sua força interior e a confiar novamente nas possibilidades da vida. Ela descobriu que, por mais difícil que fosse, o simples ato de continuar respirando e enfrentando o dia a dia era uma vitória em si.
-
-      Com o apoio de pessoas que estavam passando por lutas semelhantes, Maria começou a perceber que não estava sozinha. Ela também compreendeu que pedir ajuda não é sinal de fraqueza, mas um dos gestos mais poderosos que alguém pode fazer. O amor e o cuidado que recebeu a impulsionaram para frente, e ela passou a ver a vida sob uma nova perspectiva.
-
-      Hoje, Maria é uma mulher diferente. Ela não só superou as dificuldades, mas também se tornou uma fonte de luz para outros. Com coragem, ela compartilha sua história para inspirar e ajudar aqueles que ainda estão no fundo do poço. Ela acredita, mais do que nunca, que a vida sempre tem algo bonito para oferecer, mesmo nos momentos mais escuros.
-
-      Através de sua jornada, Maria aprendeu uma verdade simples, mas profunda: não importa quão difícil seja o caminho, sempre há uma razão para seguir em frente. E ao olhar para o futuro, ela sabe que a maior vitória não foi apenas sobreviver, mas encontrar novamente a beleza que existia nela e no mundo ao seu redor.
+        Mas, mesmo em meio à escuridão, algo dentro dele ainda lutava. Uma pequena voz, quase apagada, insistia em dizer que ainda havia esperança. Em um momento de coragem, João decidiu pedir ajuda. Foi difícil — admitir a dor, abrir o coração e confiar novamente —, mas esse passo seria o início de uma nova jornada.
       </p>
-    </section>
+      <p>
+        Com o apoio de amigos, familiares e profissionais, João começou lentamente a reconstruir o que a tristeza havia destruído. Aprendeu a respirar fundo, a reconhecer seus limites e, principalmente, a se perdoar. Os dias continuaram difíceis, mas agora havia propósito. Cada pequena vitória — levantar da cama, sair para caminhar, sorrir sem motivo — era celebrada como uma conquista imensa.
+      </p>
+      <p>
+        A terapia o ensinou que sentir não é fraqueza, e que chorar é parte do processo de cura. Descobriu que pedir ajuda é, na verdade, um dos atos mais fortes que alguém pode ter. E com o tempo, aquele vazio dentro dele começou a se encher novamente — não de euforia, mas de vida verdadeira.
+      </p>
+      <p>
+        Hoje, João olha para trás e entende: ele não venceu a depressão sozinho, mas escolheu lutar. E essa escolha fez toda a diferença. Agora, ele é a prova viva de que, mesmo quando tudo parece perdido, sempre existe um novo começo — basta dar o primeiro passo e acreditar que a luz pode voltar a brilhar. <span aria-label="Flor de girassol">🌻</span>
+      </p>
+    </article>
 
-    <section class="historia">
-      <h2>História 3: A Luta de Ana</h2>
+    <article class="historia" aria-labelledby="historia2-titulo">
+      <h2 id="historia2-titulo">História 2: O Caminho de Maria</h2>
+      <p><strong>🌟 A Jornada de Maria: Renascendo das Cinzas</strong></p>
+      <p>
+        Maria passou por momentos tão difíceis que, em vários momentos, ela acreditou que não havia mais razão para continuar. As sombras da tristeza e do desespero a envolviam a cada dia, tornando o mundo ao seu redor um lugar sombrio e sem cor. Ela se sentia isolada, sem direção, como se o peso de suas emoções fosse um fardo insuportável que ninguém poderia entender.
+      </p>
+      <p>
+        Durante meses, ela acreditou que estava sozinha, que ninguém seria capaz de vê-la por dentro, onde a dor parecia infinita. As noites eram longas e solitárias, e as manhãs, quando chegavam, apenas traziam mais cansaço. Ela estava perdida, sem esperança e sem forças para continuar.
+      </p>
+      <p>
+        Mas então, um dia, algo mudou. Maria tomou uma decisão que, à primeira vista, parecia pequena, mas que transformaria sua vida: ela decidiu pedir ajuda.
+      </p>
+      <p>
+        Ela encontrou coragem para buscar apoio no CVV (Centro de Valorização da Vida) e começou a participar de grupos de suporte, onde compartilhou suas angústias com pessoas que realmente a ouviam. Pela primeira vez em muito tempo, ela sentiu que alguém entendia a profundidade de sua dor, e isso foi a centelha que reacendeu sua vontade de lutar.
+      </p>
+      <p>
+        O processo não foi fácil. Havia dias em que ela ainda sentia o peso da tristeza, mas com o tempo, Maria aprendeu a acessar sua força interior e a confiar novamente nas possibilidades da vida. Ela descobriu que, por mais difícil que fosse, o simples ato de continuar respirando e enfrentando o dia a dia era uma vitória em si.
+      </p>
+      <p>
+        Com o apoio de pessoas que estavam passando por lutas semelhantes, Maria começou a perceber que não estava sozinha. Ela também compreendeu que pedir ajuda não é sinal de fraqueza, mas um dos gestos mais poderosos que alguém pode fazer. O amor e o cuidado que recebeu a impulsionaram para frente, e ela passou a ver a vida sob uma nova perspectiva.
+      </p>
+      <p>
+        Hoje, Maria é uma mulher diferente. Ela não só superou as dificuldades, mas também se tornou uma fonte de luz para outros. Com coragem, ela compartilha sua história para inspirar e ajudar aqueles que ainda estão no fundo do poço. Ela acredita, mais do que nunca, que a vida sempre tem algo bonito para oferecer, mesmo nos momentos mais escuros.
+      </p>
+      <p>
+        Através de sua jornada, Maria aprendeu uma verdade simples, mas profunda: não importa quão difícil seja o caminho, sempre há uma razão para seguir em frente. E ao olhar para o futuro, ela sabe que a maior vitória não foi apenas sobreviver, mas encontrar novamente a beleza que existia nela e no mundo ao seu redor.
+      </p>
+    </article>
+
+    <article class="historia" aria-labelledby="historia3-titulo">
+      <h2 id="historia3-titulo">História 3: A Luta de Ana</h2>
       <p>
         Ana foi diagnosticada com depressão severa e passou a acreditar que suas dores jamais cessariam. No entanto, com ajuda médica, terapia e amor próprio, ela reencontrou sua força interna. Ana agora usa sua experiência para ajudar outras pessoas em situações semelhantes.
       </p>
-    </section>
+    </article>
   </main>
 
-  <footer>
+  <footer role="contentinfo">
     <p>&copy; 2025 — Poesia pela Vida | CVV: 188</p>
   </footer>
+
 </body>
 </html>
-
