@@ -1,10 +1,12 @@
 :root {
-  --cor-principal: #e53935;  /* Vermelho vibrante */
-  --cor-secundaria: #b71c1c; /* Vermelho escuro */
-  --cor-acento: #ff5252; /* Vermelho claro/acento */
-  --cor-fundo: #121212; /* Preto quase total */
-  --cor-texto: #f5f5f5; /* Texto claro */
-  --cor-secundario-texto: #ccc; /* Texto secundário claro */
+  --cor-principal: #e53935;    /* Vermelho vibrante */
+  --cor-secundaria: #b71c1c;  /* Vermelho escuro */
+  --cor-acento: #ff5252;       /* Vermelho claro/acento */
+  --cor-fundo: #0d1b2a;        /* Azul escuro bem fechado */
+  --cor-texto: #f5f5f5;        /* Texto claro */
+  --cor-secundario-texto: #ccc;/* Texto secundário claro */
+  --cor-sombra: rgba(229, 57, 53, 0.7); /* Sombra vermelha para destaque */
+  --cor-sombra-azul: rgba(15, 76, 129, 0.7); /* Sombra azul para equilíbrio */
 }
 
 body {
@@ -22,7 +24,7 @@ header.topo {
   color: white;
   text-align: center;
   padding: 2rem;
-  box-shadow: 0 4px 10px rgba(229, 57, 53, 0.7); /* Sombra avermelhada */
+  box-shadow: 0 4px 10px var(--cor-sombra); /* Sombra vermelha */
   font-size: 2.5rem;
   letter-spacing: 1px;
   transition: transform 0.3s ease;
@@ -86,7 +88,7 @@ button {
   cursor: pointer;
   font-size: 1rem;
   font-weight: bold;
-  box-shadow: 0 4px 10px rgba(229, 57, 53, 0.7);
+  box-shadow: 0 4px 10px var(--cor-sombra);
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
@@ -110,8 +112,8 @@ button:active {
 }
 
 .container .box {
-  background-color: #1e1e1e;
-  box-shadow: 0 6px 15px rgba(229, 57, 53, 0.4);
+  background-color: #13294b; /* Azul mais claro para caixa */
+  box-shadow: 0 6px 15px var(--cor-sombra-azul);
   padding: 2rem;
   border-radius: 12px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -120,7 +122,7 @@ button:active {
 
 .container .box:hover {
   transform: translateY(-6px);
-  box-shadow: 0 12px 25px rgba(229, 57, 53, 0.7);
+  box-shadow: 0 12px 25px var(--cor-sombra);
 }
 
 @media (max-width: 768px) {
