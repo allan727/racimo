@@ -1,36 +1,53 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Galeria de Imagens</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Galeria de Imagens — Poesia pela Vida</title>
   <link rel="stylesheet" href="styles.css" />
   <link rel="stylesheet" href="galeria.css" />
 </head>
 <body>
 
-  <header class="topo">
-    <h1>Poesia pela Vida - Galeria</h1>
-    <nav class="menu">
-      <a href="index.html">Início</a>
-      <a href="historia.html">Histórias de Superação</a>
+  <header class="topo" role="banner">
+    <h1>Poesia pela Vida — Galeria</h1>
+    <nav class="menu" role="navigation" aria-label="Menu principal">
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="historia.html">Histórias de Superação</a></li>
+      </ul>
     </nav>
   </header>
 
-  <main>
-    <section class="galeria">
-      <h2>Galeria de Imagens</h2>
-      <div class="imagens">
-        <img src="imagem/racismo1.png" alt="Imagem de Esperança">
-        <img src="imagem/racismi2.jpeg" alt="Imagem da Ave">
-        <img src="imagem/rasimo 3.jpeg" alt="Imagem de Superação">
-        <img src="imagem/rasimo4.jpeg" alt="Imagem de Apoio e Vida">
-        <img src="imagem/rasomo5.jpg" alt="Imagem de Apoio e Vida">
+  <main role="main">
+    <section class="galeria" aria-labelledby="titulo-galeria">
+      <h2 id="titulo-galeria">Galeria de Imagens</h2>
+      <div class="imagens" role="list">
+        <figure role="listitem">
+          <img src="imagem/racismo1.png" alt="Mãos entrelaçadas simbolizando esperança" loading="lazy" />
+          <figcaption>Imagem de Esperança</figcaption>
+        </figure>
+        <figure role="listitem">
+          <img src="imagem/racismi2.jpeg" alt="Ave voando simbolizando liberdade" loading="lazy" />
+          <figcaption>Imagem da Ave</figcaption>
+        </figure>
+        <figure role="listitem">
+          <img src="imagem/rasimo 3.jpeg" alt="Pessoa superando obstáculos" loading="lazy" />
+          <figcaption>Imagem de Superação</figcaption>
+        </figure>
+        <figure role="listitem">
+          <img src="imagem/rasimo4.jpeg" alt="Abraço simbolizando apoio e vida" loading="lazy" />
+          <figcaption>Imagem de Apoio e Vida</figcaption>
+        </figure>
+        <figure role="listitem">
+          <img src="imagem/rasomo5.jpg" alt="Mãos estendidas em gesto de ajuda" loading="lazy" />
+          <figcaption>Imagem de Apoio e Vida</figcaption>
+        </figure>
       </div>
     </section>
   </main>
 
-  <footer>
+  <footer role="contentinfo">
     <p>&copy; 2025 — Poesia pela Vida | CVV: 188</p>
   </footer>
 
