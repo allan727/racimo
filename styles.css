@@ -228,3 +228,47 @@ button:active {
     font-size: 0.95rem;
   }
 }
+
+/* ====== GALERIA DE IMAGENS ====== */
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px; /* Espaçamento entre as imagens */
+  justify-content: center;
+}
+
+.imagens {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+figure {
+  width: calc(33.33% - 16px); /* Cada imagem ocupa 1/3 da largura da tela, com um pequeno espaçamento */
+  margin: 0;
+}
+
+figure img {
+  width: 100%; /* A imagem ocupa 100% da largura disponível do seu container */
+  height: auto; /* Mantém a proporção da imagem */
+  object-fit: cover; /* A imagem vai cobrir o espaço do container sem distorcer */
+}
+
+figcaption {
+  text-align: center;
+  margin-top: 8px;
+  font-size: 1.1rem;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+  figure {
+    width: calc(50% - 16px); /* Em telas menores, as imagens ocupam metade da largura */
+  }
+}
+
+@media (max-width: 480px) {
+  figure {
+    width: 100%; /* Em telas muito pequenas, as imagens ocupam toda a largura */
+  }
+}
