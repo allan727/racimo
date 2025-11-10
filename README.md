@@ -1,8 +1,16 @@
-🌻 Poesia pela Vida
+🌻 Descrição:
+O Poesia pela Vida nasceu com um propósito: acolher corações e combater o suicídio por meio da arte e da palavra. Acreditamos no poder transformador da poesia para curar feridas, reacender a esperança e lembrar que ninguém caminha sozinho.
 
-Descrição:
-Nosso site nasceu com um propósito: combater o suicídio e acolher pessoas por meio da poesia. Acreditamos no poder das palavras para tocar corações, inspirar esperança e mostrar que ninguém está sozinho.
+Aqui, cada poema é um abraço em forma de verso, um convite para respirar fundo e redescobrir o sentido de estar vivo. Nosso espaço é feito de empatia, partilha e acolhimento — um refúgio onde a dor encontra escuta, e a palavra se torna ponte para o recomeço.
 
-Aqui, cada poema é um abraço, cada verso é um convite para respirar fundo e encontrar um novo sentido para a vida. Além de textos autorais e de convidados, oferecemos um espaço seguro para compartilhar sentimentos, refletir e encontrar apoio emocional.
+💛 Aba “Histórias de Superação”
+Um espaço dedicado a relatos reais de pessoas que enfrentaram a escuridão e encontraram um novo amanhecer. São histórias de coragem e renascimento, que inspiram e mostram que é possível transformar a dor em força.
 
-Mais do que um site, somos um movimento de cuidado, empatia e vida — porque falar sobre dor também é falar sobre superação, e cada palavra pode ser uma ponte para um amanhã melhor.
+📸 Aba “Fotos contra o Suicídio”
+Uma galeria de imagens que celebram a vida, a esperança e o amor. Cada foto carrega uma mensagem de resistência e fé — um lembrete de que, mesmo nos dias nublados, ainda há luz para seguir.
+
+Mais do que um site, somos um movimento de empatia, cuidado e vida.
+Porque falar sobre dor é também falar sobre superação — e cada palavra, imagem e história pode ser a faísca que ilumina o caminho para um amanhã melhor.
+
+saite feito pelo allan 
+ dark blend
